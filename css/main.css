@@ -100,7 +100,7 @@ textarea {
    ========================================================================== */
 .content-wrapper {
   width: 90%;
-  margin: 50px 20px;
+  margin: 70px 20px;
 }
 
 /* BASS STYLES HEADER & FOOTER */
@@ -414,7 +414,7 @@ margin-top: 0;
 
   .content-wrapper {
     max-width: 640px;
-    margin: 50px 0;
+    margin: 100px 0;
   }
 
 header {
@@ -474,6 +474,7 @@ aside .content-wrapper {
 .footer-content {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -535,7 +536,79 @@ padding: 10px;
 
 }
 
-@media only screen and (min-width" 1200px) {
+@media only screen and (min-width: 1200px) {
+
+.content-wrapper {
+  max-width: 980px;
+}
+
+header nav ul {
+  margin-left: 50px;
+}
+
+.hero-content h1 {
+  width: 60%;
+}
+
+aside .contet-wrapper {
+  justify-content: center;
+}
+
+aside .form-description {
+  padding-right: 30px;
+}
+
+aside .form {
+  padding-left: 30px;
+}
+
+.features-items article {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex-basis: 20%;
+  padding: 40px;
+}
+
+.features h2 {
+  width: 60%;
+}
+
+.reviews h3 {
+  width: 20%;
+}
+
+.reviews article div {
+  width: 100%;
+}
+
+/* ABOUT PAGE */
+
+.mission h2 {
+  width: 50%;
+}
+
+.map {
+  width: 100%;
+}
+
+.contact-content {
+  justify-content: flex-start;
+}
+
+.contact-details {
+  padding-left: 100px;
+}
+
+/* FAQ PAGE */
+
+.faq h2 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 40%;
+}
 
 }
 
