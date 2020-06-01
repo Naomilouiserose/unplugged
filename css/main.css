@@ -406,6 +406,27 @@ margin-top: 0;
   margin: 0;
 }
 
+.map {
+  width: 100%;
+}
+
+.map figure {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
