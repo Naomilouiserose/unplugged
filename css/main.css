@@ -170,7 +170,7 @@ font-weight: lighter;
 
 .content-wrapper {
   width: 90%;
-  margin: 70px 20px;
+  margin: 50px 20px;
 }
 
 /* BASS STYLES HEADER & FOOTER */
@@ -566,7 +566,7 @@ margin-top: 0;
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 70px 0;
   }
 
 header {
@@ -663,7 +663,7 @@ aside .content-wrapper {
 
 footer .content-wrapper {
   width: 100%;
-  margin: 100px 0;
+  margin: 40px 0;
 }
 
 .contact-info,
@@ -701,15 +701,26 @@ footer .contact {
   margin: 0;
 }
 
+.mission h2 {
+  margin-top: 30px;
+}
+
 .mission-content p {
 width: 50%;
-padding: 10px;
+}
+
+.map figure {
+  padding-bottom: 44%;
 }
 
 .contact-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.contact-section h2 {
+  margin-top: 20px;
 }
 
 /* FAQ PAGE */
@@ -795,11 +806,16 @@ input {
 /* ABOUT PAGE */
 
 .mission h2 {
+  margin-top: 30px;
   width: 50%;
 }
 
 .map {
   width: 100%;
+}
+
+.map figure {
+  padding-bottom: 37%;
 }
 
 .contact-content {
