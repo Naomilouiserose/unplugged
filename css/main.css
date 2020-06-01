@@ -120,34 +120,38 @@ text-decoration: none;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.25em;
-  font-weight: lighter;
+color: #e2e3ed;
+font-family: 'Poppins', sans-serif;
+font-size: 2.25em;
+font-weight: lighter;
 }
 
 h2 {
+color: #e2e3ed;
 font-family: 'Poppins', sans-serif;
 font-weight: lighter;
 font-size: 1.875em;
 }
 
 h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter;
-  font-size: 1.5em;
+color: #e2e3ed;
+font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+font-size: 1.5em;
 }
 
 h4 {
+color: #e2e3ed;
 font-family: 'Poppins', sans-serif;
 font-weight: lighter;
 }
 
 p {
-
+color: #e2e3ed;
 }
 
 img {
-
+width: 100%;
 }
 
 figure {
@@ -194,6 +198,15 @@ width: 90%;
 margin: 0;
 }
 
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  width: 50%;
+}
+
 .header-divider {
   width: 100%;
   height: 1px;
@@ -216,7 +229,7 @@ padding: 0;
 }
 
 footer {
-  color: white;
+  color: #e2e3ed;
   flex-direction: column;
 }
 
@@ -256,16 +269,22 @@ footer .copyright {
 
 /* MOBILE HOMEPAGE */
 /*HERO STYLES */
-.hero-content {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-flow: row wrap;
-margin: 10px 20px;
+.hero {
+  background-image: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 .hero-content h1 {
   text-align: left;
+  padding-left: 20px;
+  line-height: 1;
 }
 
 /* FORM STYLES */
@@ -319,6 +338,10 @@ input[type=button] {
 /*FEATURES & REVIEWS SECTION STYLES */
 
 .features {
+background-image: url(../img/rawpixel-800820-unsplash1_v2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 display: flex;
 justify-content: center;
 flex-flow: row wrap;
@@ -530,6 +553,10 @@ header {
   width: 100%;
 }
 
+header figure {
+  width: 30%;
+}
+
 header .content-wrapper {
   justify-content: space-between;
 }
@@ -546,7 +573,11 @@ header nav ul {
   display: none;
 }
 
-.hero-content {
+.hero {
+  min-height: 600px;
+}
+
+.hero h1 {
   width: 60%;
 }
 
@@ -686,8 +717,22 @@ header {
   width: 100%;
 }
 
-.hero-content h1 {
-  width: 60%;
+header figure {
+  width: 25%;
+}
+
+.hero {
+  min-height: 700px;
+  width: 100%;
+}
+
+.hero-content {
+  width: 100%;
+}
+
+.hero h1 {
+  width: 30%;
+  line-height: 1.5;
 }
 
 aside .contet-wrapper {
