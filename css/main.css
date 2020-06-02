@@ -632,6 +632,7 @@ header figure {
 
 header .content-wrapper {
   justify-content: space-between;
+  width: 100%;
 }
 
 header nav {
@@ -852,6 +853,10 @@ width: 50%;
 }
 
 header {
+  width: 100%;
+}
+
+header .content-wrapper {
   width: 100%;
 }
 
